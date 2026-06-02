@@ -9,6 +9,7 @@ def format_student_data(student):
     - Major
     such as: "ID: 10 | Name: Louis Medina | Major: Computer Science"
     """
+    return (f"ID: {student[0]} | Name: {student[1]} | Major: {student[2]}")
     pass
 
 def display_students(student_list):
