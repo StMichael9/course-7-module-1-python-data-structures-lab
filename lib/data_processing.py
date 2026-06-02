@@ -17,4 +17,7 @@ def display_students(student_list):
     Display all student records.
     Loop through the student_list and print each student using format_student_data().
     """
-    pass
+    for student in student_list:
+        formatted = format_student_data(student)
+        print(formatted)
+        
